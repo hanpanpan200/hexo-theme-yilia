@@ -6,16 +6,16 @@ menu:
 
 # SubNav
 subnav:
-  github: "#"
-  weibo: "#"
-  rss: "#"
-  zhihu: "#"
+  github: "https://github.com/hanpanpan200"
+  weibo: "http://weibo.com/0513penny"
+  # rss: "#"
+  # zhihu: "#"
   #douban: "#"
-  #mail: "#"
-  #facebook: "#"
+  # mail: "hanpanpan200@gmail.com"
+  # facebook: "#"
   #google: "#"
   #twitter: "#"
-  #linkedin: "#"
+  linkedin: "https://www.linkedin.com/in/grace-han-aa9397114"
 
 rss: /atom.xml
 
@@ -38,10 +38,10 @@ favicon: /favicon.png
 avatar:
 #是否开启分享
 share_jia: true
-share_addthis: false
+share_addthis: true
 #是否开启多说评论，填写你在多说申请的项目名称 duoshuo: duoshuo-key
 #若使用disqus，请在博客config文件中填写disqus_shortname，并关闭多说评论
-duoshuo: true
+duoshuo: "Grace"
 #是否开启云标签
 tagcloud: true
 
@@ -50,15 +50,10 @@ tagcloud: true
 #friends: false
 #开启——
 friends:
-  奥巴马的博客: http://localhost:4000/
-  卡卡的美丽传说: http://localhost:4000/
-  本泽马的博客: http://localhost:4000/
-  吉格斯的博客: http://localhost:4000/
-  习大大大不同: http://localhost:4000/
-  托蒂的博客: http://localhost:4000/
+  MaxPeng's Blog: http://husband.penghongwei.cc/
 
 #是否开启“关于我”。
 #不开启——
 #aboutme: false
 #开启——
-aboutme: 我是谁，我从哪里来，我到哪里去？我就是我，是颜色不一样的吃货…
+aboutme: 我就是我，是颜色不一样的吃货…

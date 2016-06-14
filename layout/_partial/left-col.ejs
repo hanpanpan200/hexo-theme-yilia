@@ -41,18 +41,18 @@
 						</div>
 						<%}%>
 					</div>
-					
+
 				</div>
 				<div class="tips-box hide">
 					<div class="tips-arrow"></div>
 					<ul class="tips-inner">
-						<li><%= __('menu.menu') %></li>
-						<li><%= __('menu.tags') %></li>
+						<li>主菜单</li>
+						<li>标签</li>
 						<%if(theme.friends && theme.friends.length != 0){%>
-						<li><%= __('menu.link') %></li>
+						<li>友情链接</li>
 						<%}%>
 						<%if(theme.aboutme){%>
-						<li><%= __('menu.about') %></li>
+						<li>关于我</li>
 						<%}%>
 					</ul>
 				</div>
@@ -77,7 +77,7 @@
 						</div>
 					</nav>
 				</section>
-				
+
 				<%if(theme.tagcloud){%>
 				<section class="switch-part switch-part2">
 					<div class="widget tagcloud" id="js-tagcloud">
@@ -85,7 +85,7 @@
 					</div>
 				</section>
 				<%}%>
-				
+
 				<%if(theme.friends && theme.friends.length != 0){%>
 				<section class="switch-part switch-part3">
 					<div id="js-friends">
@@ -107,5 +107,5 @@
 				<%}%>
 			</div>
 		</div>
-	</header>				
+	</header>
 </div>
