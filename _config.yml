@@ -50,8 +50,8 @@ tagcloud: true
 #friends: false
 #开启——
 friends:
-  MaxPeng's Blog: http://blog.penghongwei.cc/
-
+  MaxPeng: http://blog.penghongwei.cc/
+  BangWu: http://bangwu.github.io/
 #是否开启“关于我”。
 #不开启——
 #aboutme: false
