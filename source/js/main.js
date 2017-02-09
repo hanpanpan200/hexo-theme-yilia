@@ -62,7 +62,8 @@ require([], function (){
 				for(var i=0,len=imgArr.length;i<len;i++){
 					var src = imgArr.eq(i).attr("src");
 					var title = imgArr.eq(i).attr("alt");
-					imgArr.eq(i).replaceWith("<a href='"+src+"' title='"+title+"' rel='fancy-group' class='fancy-ctn fancybox'><img src='"+src+"' title='"+title+"'></a>");
+					var width = imgArr.eq(i).attr("width");
+					imgArr.eq(i).replaceWith("<a href='"+src+"' title='"+title+"' rel='fancy-group' class='fancy-ctn fancybox'><img src='"+src+"' title='"+title+"' width='"+width+"'"+"></a>");
 				}
 				$(".article-inner .fancy-ctn").fancybox();
 			}
